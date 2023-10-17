@@ -1,0 +1,22 @@
+uuid: ff05febb-1ba8-4c36-afa3-0e5bf6c0090e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_couleur
+    - taxonomy.vocabulary.tags
+  module:
+    - color_field
+id: taxonomy_term.tags.field_couleur
+field_name: field_couleur
+entity_type: taxonomy_term
+bundle: tags
+label: Couleur
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  opacity: 0
+field_type: color_field_type

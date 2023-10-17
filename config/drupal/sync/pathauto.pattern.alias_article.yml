@@ -1,0 +1,22 @@
+uuid: 81fba343-77dd-416e-90b8-f14c5734e528
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: alias_article
+label: 'Alias article'
+type: 'canonical_entities:node'
+pattern: 'https://drupal-maj.ddev.site/node/[node:title]'
+selection_criteria:
+  dfda7399-a119-4318-be68-b5780cf296e1:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: dfda7399-a119-4318-be68-b5780cf296e1
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: -5
+relationships: {  }

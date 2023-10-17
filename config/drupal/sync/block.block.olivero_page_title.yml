@@ -2,6 +2,8 @@ uuid: 47bd57d9-86e8-4bb7-83c5-10ebdb0b2a33
 langcode: fr
 status: true
 dependencies:
+  module:
+    - taxonomy
   theme:
     - olivero
 _core:
@@ -14,7 +16,14 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Titre de page'
+  label: 'Liste des Actualités de type [current-page:title]'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+    bundles:
+      tags: tags

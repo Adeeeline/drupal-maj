@@ -1,0 +1,33 @@
+uuid: f9a69d34-fffe-4466-8231-e0ac13a32f48
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.tags.field_couleur
+    - taxonomy.vocabulary.tags
+  module:
+    - color_field
+    - text
+id: taxonomy_term.tags.default
+targetEntityType: taxonomy_term
+bundle: tags
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_couleur:
+    type: color_field_formatter_text
+    label: hidden
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

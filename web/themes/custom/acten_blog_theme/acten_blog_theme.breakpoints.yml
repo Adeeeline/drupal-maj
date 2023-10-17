@@ -1,0 +1,36 @@
+acten_blog_theme.small_1x:
+  label: mobile
+  mediaQuery: 'screen and (max-width: 575px)'
+  weight: 0
+  multipliers:
+    - 1x
+acten_blog_theme.small_2x:
+  label: mobile
+  mediaQuery: 'screen and (max-width: 575px)'
+  weight: 0
+  multipliers:
+    - 2x
+acten_blog_theme.medium_1x:
+  label: tablet
+  mediaQuery: 'screen and (min-width: 576px and max-width: 991px'
+  weight: 2
+  multipliers:
+    - 1x
+acten_blog_theme.medium_2x:
+  label: tablet
+  mediaQuery: 'screen and (min-width: 576px and max-width: 991px'
+  weight: 2
+  multipliers:
+    - 2x
+acten_blog_theme.large_1x:
+  label: desktop
+  mediaQuery: 'all and (min-width: 992px) and (max-width: 1199px)'
+  weight: 3
+  multipliers: 
+    - 1x
+acten_blog_theme.large_2x:
+  label: desktop
+  mediaQuery: 'all and (min-width: 992px) and (max-width: 1199px)'
+  weight: 3
+  multipliers:
+    - 2x
