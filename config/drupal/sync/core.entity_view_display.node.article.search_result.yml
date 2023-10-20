@@ -1,12 +1,15 @@
 uuid: 640c4d0a-a9b8-43b3-ac15-562f297d6e4d
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_display.comment.comment.default
     - core.entity_view_mode.node.search_result
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_color
+    - field.field.node.article.field_createdat
+    - field.field.node.article.field_picture
     - field.field.node.article.field_short_title
     - field.field.node.article.field_tags
     - node.type.article
@@ -51,5 +54,8 @@ content:
     weight: 2
     region: content
 hidden:
+  field_color: true
+  field_createdat: true
+  field_picture: true
   field_short_title: true
   langcode: true

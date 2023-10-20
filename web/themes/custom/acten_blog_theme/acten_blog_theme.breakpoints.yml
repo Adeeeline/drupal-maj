@@ -1,18 +1,21 @@
-acten_blog_theme.small_2x:
-  label: mobile
+acten_blog_theme.small:
+  label: small
   mediaQuery: 'screen and (max-width: 575px)'
   weight: 0
   multipliers:
     - 2x
-acten_blog_theme.medium_2x:
-  label: narrow
+    - 1x
+acten_blog_theme.medium:
+  label: medium
   mediaQuery: 'screen and (min-width: 576px and max-width: 991px)'
   weight: 1
   multipliers:
     - 2x
-acten_blog_theme.large_2x:
-  label: wide
-  mediaQuery: 'all and (min-width: 992px) and (max-width: 1199px)'
+    - 1x
+acten_blog_theme.large:
+  label: large
+  mediaQuery: 'all and (min-width: 992px) and (max-width: 992px)'
   weight: 2
   multipliers:
     - 2x
+    - 1x

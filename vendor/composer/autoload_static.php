@@ -111,6 +111,7 @@ class ComposerStaticInitb1e6a0d302716fdc219dc3d7c59a6e77
         'D' => 
         array (
             'Drush\\' => 6,
+            'Drupal\\rat\\' => 11,
             'Drupal\\Core\\' => 12,
             'Drupal\\Composer\\Plugin\\Scaffold\\' => 32,
             'Drupal\\Composer\\Plugin\\ProjectMessage\\' => 38,
@@ -362,6 +363,10 @@ class ComposerStaticInitb1e6a0d302716fdc219dc3d7c59a6e77
         'Drush\\' => 
         array (
             0 => __DIR__ . '/..' . '/drush/drush/src',
+        ),
+        'Drupal\\rat\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/drupal/rat/src',
         ),
         'Drupal\\Core\\' => 
         array (

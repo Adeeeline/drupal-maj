@@ -1,0 +1,37 @@
+uuid: 35518ad1-72e7-4da9-9d61-64d0330dfd6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools_block
+    - language
+  theme:
+    - acten_blog_theme
+id: acten_blog_theme_menulink
+theme: acten_blog_theme
+region: header
+weight: 0
+provider: null
+plugin: 'entity_field:node:menu_link'
+settings:
+  id: 'entity_field:node:menu_link'
+  label: Menu
+  label_display: visible
+  provider: ctools_block
+  context_mapping:
+    entity: '@node.node_route_context:node'
+  formatter:
+    type: entity_reference_label
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en

@@ -1,0 +1,25 @@
+uuid: f47a7556-86e4-4e7c-b877-ec58f7754bd9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:16a07558-363f-46c6-a5f2-99f90065ec33'
+  module:
+    - block_content
+  theme:
+    - acten_blog_theme
+id: acten_blog_theme_blocmentionslegales
+theme: acten_blog_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:16a07558-363f-46c6-a5f2-99f90065ec33'
+settings:
+  id: 'block_content:16a07558-363f-46c6-a5f2-99f90065ec33'
+  label: 'Bloc Mentions Légales'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

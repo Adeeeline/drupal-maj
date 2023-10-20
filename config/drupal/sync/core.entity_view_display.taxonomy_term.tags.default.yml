@@ -21,11 +21,14 @@ content:
     weight: 0
     region: content
   field_couleur:
-    type: color_field_formatter_text
+    type: color_field_formatter_swatch_options
     label: hidden
     settings:
-      format: hex
+      shape: square
+      width: '30'
+      height: '30'
       opacity: true
+      data_attribute: true
     third_party_settings: {  }
     weight: 1
     region: content

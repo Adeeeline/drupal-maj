@@ -1,0 +1,15 @@
+uuid: 735cbebd-4857-448c-9a7d-696094999074
+langcode: en
+status: true
+dependencies: {  }
+name: large_width_800px
+label: 'Large (Width : 800px)'
+effects:
+  0bec493d-4f6b-4c1d-abb0-3940f0aacc53:
+    uuid: 0bec493d-4f6b-4c1d-abb0-3940f0aacc53
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: null
+      upscale: false

@@ -1,0 +1,15 @@
+uuid: 770d90db-500b-421c-b0e9-5f75f44e4811
+langcode: en
+status: true
+dependencies: {  }
+name: large_800x400
+label: 'Large (800x400)'
+effects:
+  447e8c13-71c0-48a5-91d2-cba6c25d7b11:
+    uuid: 447e8c13-71c0-48a5-91d2-cba6c25d7b11
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 400
+      anchor: center-center

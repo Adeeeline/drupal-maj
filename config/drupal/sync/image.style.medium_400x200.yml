@@ -1,0 +1,15 @@
+uuid: 561e9be8-eb0c-4305-940d-e2dd26331d48
+langcode: en
+status: true
+dependencies: {  }
+name: medium_400x200
+label: 'Medium (400x200)'
+effects:
+  a89193f2-75f9-4a87-9252-8262fbccb016:
+    uuid: a89193f2-75f9-4a87-9252-8262fbccb016
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 200
+      anchor: center-center

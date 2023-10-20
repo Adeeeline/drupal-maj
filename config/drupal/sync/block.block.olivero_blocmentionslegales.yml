@@ -1,0 +1,25 @@
+uuid: 6f81a69e-5ee4-403f-8bee-dfb50220b19a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:16a07558-363f-46c6-a5f2-99f90065ec33'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_blocmentionslegales
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:16a07558-363f-46c6-a5f2-99f90065ec33'
+settings:
+  id: 'block_content:16a07558-363f-46c6-a5f2-99f90065ec33'
+  label: 'Bloc Mentions Légales'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
